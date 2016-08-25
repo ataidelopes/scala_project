@@ -12,8 +12,11 @@ object ScalaInit extends App{
       a = b
       b = c
     }
-      return a
+    return a
   }
-  println(fibo(100)+" | ")
+  
+     
+     println(fibo(10)+" | ")
+  
   
 }
