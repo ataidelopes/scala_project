@@ -14,9 +14,8 @@ object ScalaInit extends App{
     }
     return a
   }
-  
      
-     println(fibo(10)+" | ")
+  println(fibo(10))
   
   
 }
