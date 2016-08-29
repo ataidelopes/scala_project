@@ -1,7 +1,6 @@
 package br.com.study
 
 import java.util.{Date, Locale}
-import java.text.DateFormat
 import java.text.DateFormat._
 import java.text.SimpleDateFormat
 
