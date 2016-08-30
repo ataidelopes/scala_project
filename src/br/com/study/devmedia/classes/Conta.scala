@@ -19,6 +19,7 @@ class Conta(nAgencia:String, nConta:String, s:Float) {
         false
     }
     
-    override def toString(): String =
-        "(Agencia:" + numAgencia + ", Conta: " + numConta + ", Saldo: " + saldo + ")";
+    override def toString(): 
+      String = "(Agencia:" + numAgencia + ", Conta: " + 
+                 numConta + ", Saldo: " + saldo + ")";
 }
