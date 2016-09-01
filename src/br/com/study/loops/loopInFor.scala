@@ -4,13 +4,13 @@ object loopInFor {
     
     def forWithUntil() ={
         for(a <- 0 until 10){
-            print(" "+a)
+            println(" "+a)
         }
     }
     
     def forWithTo () = {
         for( a <- 0 to 10){
-            print(" "+ a)
+            println(" "+ a)
         }
     }
     
@@ -18,8 +18,8 @@ object loopInFor {
         var a, b = 0
         
         for (a <- 1 to 3; b <- 1 to 3){
-            print("value of a "+ a)
-            print("value of b "+ b)
+            println("value of a "+ a)
+            println("value of b "+ b)
         }
     }
     
@@ -28,7 +28,7 @@ object loopInFor {
         var list = List(1,2,3,4,5,6)
         
         for ( a <- list){
-            print("value of a "+ a)
+            println("value of a "+ a)
         }
     }
     
@@ -36,5 +36,9 @@ object loopInFor {
         val t = (1,2,3,4)
         
         t.productIterator.foreach { i => println("value "+i) }
+    }
+    
+    def main(args: Array[String]): Unit = {
+      forEach()
     }
 }
